@@ -32,7 +32,7 @@ public class SuperControladorJPA {
 	 */
 	protected EntityManager getEntityManager() {
 		if (em == null) {
-			return Persistence.createEntityManagerFactory("Papeleria")
+			return Persistence.createEntityManagerFactory("Bankonter")
 					.createEntityManager();
 		}
 		return em;
